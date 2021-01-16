@@ -16,7 +16,6 @@ namespace CampIntro
             double dolarDun = 7.35;
             double dolarBugun = 7.45;
 
-
             if (dolarDun>dolarBugun)
             {
                 Console.WriteLine("Azalis Butonu");
