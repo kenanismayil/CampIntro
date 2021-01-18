@@ -27,6 +27,20 @@ namespace ValueAndReferenceTypes
             //sayi1 ve sayi2 deger tiptir ve stack'de tanimlanir.
 
 
+            int a = 50;
+            int b = 30;
+            b = a;
+            a = 45;
+            Console.WriteLine(b);
+            Console.WriteLine(a);
+
+            int[] c = new int[] {1,2,3,4,5,6,7,8,0,5,8 };
+            int[] d = new int[] { 8, 9, 4, 6, 5, 3, 32, 43, 34, 58 };
+
+            d=c;
+            c[0] = 12;
+
+            Console.WriteLine(d[0]);
 
             Console.ReadLine();
         }
