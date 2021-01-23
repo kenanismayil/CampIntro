@@ -9,9 +9,8 @@ namespace Math
             FourOperation fourOperation = new FourOperation();
 
             Console.WriteLine("Result:");
-            
 
-            fourOperation.Addition(2, 3);                               //Parametreler degisken degerlerdir.Istedigimiz kadar degerleri degisebiliriz.
+            fourOperation.Addition(2, 3);              //Parametreler degisken degerlerdir.Istedigimiz kadar degerleri degisebiliriz.
             fourOperation.Addition(5, 7);
 
             fourOperation.Substraction1(4, 5);
@@ -19,8 +18,6 @@ namespace Math
 
             fourOperation.Multiplication(5, 9);
             fourOperation.Division(5,8);
-
-
 
             Console.ReadLine();
         }
