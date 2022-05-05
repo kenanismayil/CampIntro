@@ -19,5 +19,6 @@ namespace Methods
             Console.WriteLine("Tebrikler. Sepete Eklendi : " + productName);
 
         }
+
     }
 }
