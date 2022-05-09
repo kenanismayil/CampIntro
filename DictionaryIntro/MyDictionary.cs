@@ -58,15 +58,11 @@ namespace DictionaryIntro
             get { return _value; }
         }
 
-        public int Length1
+        public int Length
         {
             get { return _key.Length; }
         }
 
-        public int Length2
-        {
-            get { return _value.Length; }
-        }
         
 
     }

@@ -15,6 +15,8 @@ namespace OOP3
             ICreditManager residenceCrediManager = new ResidenceCrediManager();
             ICreditManager smallBusninessCrediManager = new SmallBusinessCrediManager();
 
+            
+
             //Loglayici ornekleri olusturmak:
             ILoggerService databaseLoggerService = new DatabaseLoggerService();
             ILoggerService fileLoggerService = new FileLoggerService();

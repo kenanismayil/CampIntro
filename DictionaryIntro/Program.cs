@@ -20,16 +20,24 @@ namespace DictionaryIntro
             //Console.WriteLine(myDictionary.Keys[3] + " = " + myDictionary.Values[3]);
 
             //Dongu yardimiyla Key ve Value Degerleri:
-            for (int i = 0; i < myDictionary.Keys.Length; i++)
+            for (int i = 0; i < myDictionary.Length; i++)
             {
                 Console.WriteLine("{0} : {1}", myDictionary.Keys[i], myDictionary.Values[i]);
             }
 
+            //int index = 0;
+            //foreach (var item in myDictionary.Keys)
+            //{
+
+            //    Console.WriteLine("{0} : {1}", item,myDictionary.Values[index]);
+            //    index++;
+            //}
+
             Console.WriteLine("------------------------------");
 
             Console.WriteLine("Key ve Value dizisinin uzunlugu:");
-            Console.WriteLine("Key sayisi : " + myDictionary.Length1);
-            Console.WriteLine("Value sayisi : " + myDictionary.Length2);
+            Console.WriteLine("Key sayisi : " + myDictionary.Length);
+
 
 
 
